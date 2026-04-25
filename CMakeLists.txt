@@ -13,4 +13,22 @@ add_executable (PhiVideo
 	
 	"src/PhiVideo/Main.cpp"
 
+	"src/PhiVideo/Base/Base.h"
+    "src/PhiVideo/Base/Base.cpp"
+    "src/PhiVideo/Base/Maths.h"
+    "src/PhiVideo/Base/Maths.cpp"
+
+    "src/PhiVideo/Framebuffer/Texture.h"
+    "src/PhiVideo/Framebuffer/Texture.cpp"
+    "src/PhiVideo/Framebuffer/Framebuffer.h"
+    "src/PhiVideo/Framebuffer/Framebuffer.cpp"
+
+    "src/PhiVideo/Log/Log.h"
+    "src/PhiVideo/Log/Log.cpp"
+
+    "src/PhiVideo/stb/stb_image.cpp"
+    "src/PhiVideo/stb/stb_truetype.cpp"
+    "src/PhiVideo/stb/std_image_resize2.cpp"
+    "src/PhiVideo/stb/stb_image_write.cpp"
+
 )
